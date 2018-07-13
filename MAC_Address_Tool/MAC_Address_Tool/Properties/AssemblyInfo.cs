@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MAC_Converter_Tool")]
+[assembly: AssemblyTitle("MAC_Address_Tool")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MAC_Converter_Tool")]
+[assembly: AssemblyProduct("MAC_Address_Tool")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4f4c8607-dcf7-4f6e-ba3d-23cdf337aec3")]
+[assembly: Guid("c2233d85-e318-4faa-ae45-2a458eab1ea2")]
 
 // Version information for an assembly consists of the following four values:
 //

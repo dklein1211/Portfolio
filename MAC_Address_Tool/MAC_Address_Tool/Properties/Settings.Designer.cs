@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MAC_Converter_Tool.Properties
+namespace MAC_Address_Tool.Properties
 {
 
 

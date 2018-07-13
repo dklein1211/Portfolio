@@ -1,0 +1,10 @@
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\bin\Debug\MAC_Address_Tool.exe.config
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\bin\Debug\MAC_Address_Tool.exe
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\bin\Debug\MAC_Address_Tool.pdb
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.csprojResolveAssemblyReference.cache
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.Properties.Resources.resources
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.csproj.GenerateResource.Cache
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.csproj.CoreCompileInputs.cache
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.exe
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.pdb
+C:\Users\dklei\Source\Repos\projects\MAC_Address_Tool\MAC_Address_Tool\obj\Debug\MAC_Address_Tool.Tool_Form.resources

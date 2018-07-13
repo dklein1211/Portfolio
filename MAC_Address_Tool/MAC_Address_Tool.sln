@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAC_Converter_Tool", "MAC_Converter_Tool\MAC_Converter_Tool.csproj", "{4F4C8607-DCF7-4F6E-BA3D-23CDF337AEC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAC_Address_Tool", "MAC_Address_Tool\MAC_Address_Tool.csproj", "{C2233D85-E318-4FAA-AE45-2A458EAB1EA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F4C8607-DCF7-4F6E-BA3D-23CDF337AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F4C8607-DCF7-4F6E-BA3D-23CDF337AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F4C8607-DCF7-4F6E-BA3D-23CDF337AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F4C8607-DCF7-4F6E-BA3D-23CDF337AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2233D85-E318-4FAA-AE45-2A458EAB1EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2233D85-E318-4FAA-AE45-2A458EAB1EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2233D85-E318-4FAA-AE45-2A458EAB1EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2233D85-E318-4FAA-AE45-2A458EAB1EA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2CEFBFB9-6FEA-4F27-9F54-954F1A73E7F4}
+		SolutionGuid = {B3C8BF51-87FA-4E35-805C-9B7EC423ECFF}
 	EndGlobalSection
 EndGlobal
