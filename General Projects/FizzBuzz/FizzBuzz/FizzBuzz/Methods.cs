@@ -13,27 +13,40 @@ namespace FizzBuzz
             //Test to correct user input entered in backwards.
             if (min > max)
             {
-                int swap;
+                for (int i = min; i >= max; i--) //For loop that takes in the max and min values dynamically.
+                {
+                    var output = ""; //An output variable for storing results.
 
-                swap = min; //Stores the true max value.
-                min = max; //Stores the true min value.
-                max = swap; //Stores the true max value.
+                    if (i != 0) //Catches 0's as 0 divided by any number will prompt a FizzBuzz.
+                    {
+                        if (i % 3 == 0) { output = "Fizz"; } //If statement that catchs divisions by 3 and stores them in the output.
+
+                        if (i % 5 == 0) { output += "Buzz"; } //If statment that catches divisions by 5 or in the case of a FizzBuzz will add the Buzz to the Fizz.
+                    }
+
+                    if (output == "") { output = Convert.ToString(i); } //If statement for any output that is not Fizz or Buzz or FizzBuzz.
+
+                    Console.WriteLine(output); //Writes the output to the console line.
+                }
             }
 
-            for (int i = max; i >= min; i--) //For loop that takes in the max and min values dynamically.
+            else
             {
-                var output = ""; //An output variable for storing results.
-
-                if (i != 0) //Catches 0's as 0 divided by any number will prompt a FizzBuzz.
+                for (int i = min; i <= max; i++) //For loop that takes in the max and min values dynamically.
                 {
-                    if (i % 3 == 0) { output = "Fizz"; } //If statement that catchs divisions by 3 and stores them in the output.
+                    var output = ""; //An output variable for storing results.
 
-                    if (i % 5 == 0) { output += "Buzz"; } //If statment that catches divisions by 5 or in the case of a FizzBuzz will add the Buzz to the Fizz.
+                    if (i != 0) //Catches 0's as 0 divided by any number will prompt a FizzBuzz.
+                    {
+                        if (i % 3 == 0) { output = "Fizz"; } //If statement that catchs divisions by 3 and stores them in the output.
+
+                        if (i % 5 == 0) { output += "Buzz"; } //If statment that catches divisions by 5 or in the case of a FizzBuzz will add the Buzz to the Fizz.
+                    }
+
+                    if (output == "") { output = Convert.ToString(i); } //If statement for any output that is not Fizz or Buzz or FizzBuzz.
+
+                    Console.WriteLine(output); //Writes the output to the console line.
                 }
-
-                if (output == "") { output = Convert.ToString(i); } //If statement for any output that is not Fizz or Buzz or FizzBuzz.
-
-                Console.WriteLine(output); //Writes the output to the console line.
             }
         }
 
