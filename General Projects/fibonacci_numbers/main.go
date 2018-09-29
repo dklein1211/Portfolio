@@ -6,32 +6,28 @@ import (
 	"strconv"
 )
 
-var arg int64
-
+//////////////////////////////////////
+//MAIN
+/////////////////////////////////////
 func main() {
-	i, err := strconv.ParseInt(os.Args[1], 10, 0)
-	if err == nil {
-		arg = i
+	fmt.Println(fibRecur(strconv.Atoi(os.Args[1]))) //Prints the fibRecur function that takes in the command line argument by converting it from a string to an int, error
+}
 
-		fmt.Println(fibRecur(arg))
-		//fmt.Println(fibonacciLoop(arg))
+//////////////////////////////////////
+//FUNCTIONS
+/////////////////////////////////////
+
+//Fib Recursive Function: that calls the fibTail after checking that the error perm is not nil.
+func fibRecur(n int, err error) int {
+	if err != nil { //If user does not enter a whole number the program will display the error and exit the program.
+		fmt.Println("Error: An invalid input was entered, please enter in a whole number.\nError Message:", err)
+		os.Exit(0)
 	}
+	return fibTail(n, 0, 1) //runs the tail recursion function.
 }
 
-func fibonacciLoop(n int64) int64 {
-	if n < 2 {
-		return n
-	}
-
-	fmt.Println("n-1=", n-1, "| n-2=", n-2)
-	return fibonacciLoop(n-1) + fibonacciLoop(n-2)
-}
-
-func fibRecur(n int64) int64 {
-	return fibTail(n, 0, 1)
-}
-
-func fibTail(n, first, second int64) int64 {
+//Fib Recursive Tail Function: This fucntion is used to find the fib value for the number entered by the user.
+func fibTail(n, first, second int) int {
 	if n == 0 {
 		return first
 	}

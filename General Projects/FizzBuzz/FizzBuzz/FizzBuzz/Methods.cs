@@ -10,7 +10,7 @@ namespace FizzBuzz
     {
         public void FizzBuzz(int min, int max)
         {
-            //Test to correct user input entered in backwards.
+            //If the two values are input from hightest to lowest then the program will output the values as such.
             if (min > max)
             {
                 for (int i = min; i >= max; i--) //For loop that takes in the max and min values dynamically.
@@ -26,10 +26,11 @@ namespace FizzBuzz
 
                     if (output == "") { output = Convert.ToString(i); } //If statement for any output that is not Fizz or Buzz or FizzBuzz.
 
-                    Console.WriteLine(output); //Writes the output to the console line.
+                    Console.WriteLine(output + "Test"); //Writes the output to the console line.
                 }
             }
 
+            //If the user inputs the values from lowest to highest it will output the values as such.
             else
             {
                 for (int i = min; i <= max; i++) //For loop that takes in the max and min values dynamically.
@@ -50,7 +51,7 @@ namespace FizzBuzz
             }
         }
 
-        public bool AurgTest(string[] arugsVal)
+        public bool ValidateInput(string[] arugsVal)
         {
             //Test to verify the user entered in 2 arguments when running the application.
             if (arugsVal.Length == 2) //
@@ -71,8 +72,8 @@ namespace FizzBuzz
                 //Runs the fizzbuzz method.
                 else
                 {
-                    Methods Test1 = new Methods(); //Initializes the class Methods
-                    Test1.FizzBuzz(minNum, maxNum); //Calls the class function fizzBuzz 
+                    Methods runMethod = new Methods(); //Initializes the class Methods
+                    runMethod.FizzBuzz(minNum, maxNum); //Calls the class function fizzBuzz 
                     return true;
                 }
             }
