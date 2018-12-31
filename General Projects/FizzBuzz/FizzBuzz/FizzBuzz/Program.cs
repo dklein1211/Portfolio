@@ -10,8 +10,8 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            Methods run = new Methods();
-            run.AurgTest(args);
+            Methods runMethod = new Methods();
+            runMethod.ValidateInput(args);
 
             Console.ReadLine();
         }
